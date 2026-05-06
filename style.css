@@ -1,0 +1,97 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(#ffd6e7, #fff);
+  margin: 0;
+  text-align: center;
+}
+
+/* navbar */
+.navbar {
+  background: #ffb6c1;
+  padding: 15px;
+}
+
+.logo {
+  font-family: 'Pacifico';
+}
+
+.menu li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  padding: 8px 12px;
+  background: white;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  background: pink;
+  transform: translateY(-3px);
+}
+
+/* home */
+.home-box {
+  margin-top: 50px;
+}
+
+.desc-box {
+  background: white;
+  padding: 15px;
+  border-radius: 15px;
+  width: 60%;
+  margin: auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.dekor {
+  font-size: 30px;
+}
+
+/* about */
+.box {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  width: 60%;
+  margin: auto;
+}
+
+/* produk */
+.produk {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  width: 200px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.harga {
+  font-size: 14px;
+}
+
+/* form */
+input {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #ff69b4;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
